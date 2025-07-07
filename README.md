@@ -121,12 +121,16 @@ export default Footer;
 
 
 
-## 📁 React Components
+## 4📁 React Components
 ### What is a React Component?
-A React component is a small, reusable piece of code that represents a UI element.
+
+A React component is a small, reusable piece of code that represents a UI element or a part of a UI element. It is a self-contained piece of code that can be easily reused throughout an application.
+
 ### Types of React Components
-1. Functional Components
-2. Class Components
-3. Higher-Order Components (HOCs)
-4. React Hooks
-### Example of a Functional Component
+There are two main types of React components:
+
+#### 1. Functional Components
+Functional components are the simplest type of React component. They are pure functions that take in props and return JSX.
+
+#### 2. Class Components
+Class components are more complex than functional components. They have their own state and lifecycle methods.
