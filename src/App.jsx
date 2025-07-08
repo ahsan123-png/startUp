@@ -5,6 +5,7 @@ import './App.css'
 import Hero from './Hero' // import Hero component from Hero file
 import Login,{msg, Settings, Profile} from './UserComponent' // here you cn see how we import multi componenets from a single file
 import UserCard from './UserCard'
+import ClickExample,{GreetUser} from './ClickExample'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
     <Profile />
     {/* Using the user card where we add different info inside js to see the working of jsx  */}
     <UserCard />
+    <ClickExample/>
+     <GreetUser name="Ali" /> 
+      <GreetUser name="Fatima" />
     </>
   )}
 
@@ -36,6 +40,8 @@ function App() {
     )
   }
 
+  // here we learn abount use click event and function in jsx
+  
 
 
 
