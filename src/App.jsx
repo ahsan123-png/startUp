@@ -12,8 +12,23 @@ function App() {
     <Hero/>
     <h1>This is fragment Code </h1>
     <p>we are learning React</p>
+    {/* use button component in main */}
+    <Button />
     </>
   )}
+
+  // Create button Component
+  function Button(){
+    return(
+    <>
+    <button>Add Value</button>
+    <button>Remove Value</button>
+    </>
+    )
+  }
+
+
+
 
 
 // function App() {
