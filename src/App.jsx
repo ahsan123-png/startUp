@@ -4,6 +4,7 @@ import './App.css'
 // import './Hero'
 import Hero from './Hero' // import Hero component from Hero file
 import Login,{msg, Settings, Profile} from './UserComponent' // here you cn see how we import multi componenets from a single file
+import UserCard from './UserCard'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
     <h3>{msg}</h3>
     <Settings />
     <Profile />
+    {/* Using the user card where we add different info inside js to see the working of jsx  */}
+    <UserCard />
     </>
   )}
 
