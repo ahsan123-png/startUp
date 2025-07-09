@@ -7,6 +7,7 @@ import Login,{msg, Settings, Profile} from './UserComponent' // here you cn see 
 import UserCard from './UserCard'
 import ClickExample,{GreetUser} from './ClickExample'
 import Counter from './Counter'
+import { ToggleMessage, ToggleSwitch } from './Toggles';
 function App() {
   return (
     // <> Fragment
@@ -28,6 +29,8 @@ function App() {
      <GreetUser name="Ali" /> 
       <GreetUser name="Fatima" />
       <Counter />
+      <ToggleMessage />
+      <ToggleSwitch />
     </>
   )}
 
