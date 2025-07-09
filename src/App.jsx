@@ -6,7 +6,7 @@ import Hero from './Hero' // import Hero component from Hero file
 import Login,{msg, Settings, Profile} from './UserComponent' // here you cn see how we import multi componenets from a single file
 import UserCard from './UserCard'
 import ClickExample,{GreetUser} from './ClickExample'
-
+import Counter from './Counter'
 function App() {
   return (
     // <> Fragment
@@ -27,6 +27,7 @@ function App() {
     <ClickExample/>
      <GreetUser name="Ali" /> 
       <GreetUser name="Fatima" />
+      <Counter />
     </>
   )}
 
